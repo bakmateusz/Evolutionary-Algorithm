@@ -41,10 +41,10 @@ public class Main
 			System.out.println("Generacja: "+generation+"  -  U/N = "+bestfitness[2]);
 			
 			Select.select();				//selekcja turniejowa
-			Crossover.crossover();			//krzyzowanie usredniajace
-			Mutation.mutation();			//mutacja
+			Crossover.crossover();				//krzyzowanie usredniajace
+			Mutation.mutation();				//mutacja
 			Verify.verify();				//sprawdzenie czy czasteczki znajduja sie w przedziale
-			Evaluation.evaluation();		//ocena populacji
+			Evaluation.evaluation();			//ocena populacji
 			Elitist.elitist();				//zapisanie najlepszego czlonka populacji
 			Best.best();					//zapisanie najlepszego rozwiazania
 		}
