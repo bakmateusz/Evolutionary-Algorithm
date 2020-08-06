@@ -3,10 +3,10 @@ package com.mteuszbak.algorythm;
 
 public class Info 
 {
-	public static int maxPop = 10000000;		//liczba pokolen
+	public static int maxPop = 10000000;		        //liczba pokolen
 	public static int popSize = 300;			//liczebnosc populacji
-	public static int nVars = 9;				//liczba czastek
-	public static int C = 500;					//wspolczynnik C
+	public static int nVars = 9;				//liczba czastek (9 - 30)
+	public static int C = 500;				//wspolczynnik C (nie zmieniac)
 	
 	public static double pXover = 0.7;			//prawdopodobienstwo krzyzowania
 	public static double pMut = 0.35;			//prawdopodobienstwo mutacji
@@ -16,6 +16,6 @@ public class Info
 
 	public static int generetion;				//numer pokolenia
 	
-	public static double[][] best = new double[nVars][3];		//najlepszy osobnik
+	public static double[][] best = new double[nVars][3];	//najlepszy osobnik
 
 }
