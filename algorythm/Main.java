@@ -1,6 +1,3 @@
-/**		Plik main odpala algorytm
- * 
- */
 package com.mteuszbak.algorythm;
 
 import static java.lang.Math.*;
@@ -62,7 +59,7 @@ public class Main
 		save.println("Liczba iteracji algorytmu (liczba pokolen) : " + Info.maxPop);
 		save.println("Prawdopodobienstwo krzyzowania : " + Info.pXover);
 		save.println("Prawdopodobienstwo mutacji : " + Info.pMut);
-		save.println("Przedzia≥ : " + "( " + Info.low + ", " + Info.high + " )");
+		save.println("Przedzia≈Ç : " + "( " + Info.low + ", " + Info.high + " )");
 		save.println("Wspolczynnik C, ktory jest zalezny od funkcji : " + Info.C);
 		save.println();
 		save.println();
@@ -89,7 +86,7 @@ public class Main
 		
 		//wypisanie promienia
 		save.println();
-		save.println("PromieÒ: ");
+		save.println("Promie≈Ñ: ");
 		save.println();
 		for ( i = 0; i < Info.nVars; i++)
 		{
